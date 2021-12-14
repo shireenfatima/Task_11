@@ -1,0 +1,38 @@
+body{
+    background-color:green;
+    display: flex;
+}
+div{
+    background-color:white;
+    margin-top:50px;
+    margin-bottom:50px;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h4{
+    text-align:center;
+    text-decoration: none;
+    color:rgb(228, 63, 91);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="text"]{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    
+}
+textarea{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 25px;
+}
+button{
+    color:rgb(228, 63, 91);
+    background-color:greenyellow;
+    text-align: center;
+    margin-left: auto;
+    
+}

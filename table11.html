@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="css/table.css">
+<style>
+    /* body {
+        display: flex;
+    } */
+    h1{
+        text-align: center;
+    }
+    table {
+        width: auto;
+        height: 200px;
+        /* justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        justify-content: cent;
+    }
+</style>
+
+</head>
+
+<body>
+    <h1 style="text-align:center;">health Chart</h1>
+    <table  border=" solid 5px black" cellspacing="0" cellpadding="5px">
+        <tr>
+            <th rowspan="2">State of health</th>
+            <th colspan="2">fasting value</th>
+            <th>after eating</th>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hr after eating</td>
+        </tr>
+        <tr>
+            <td>heathy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less than 140</td>
+        </tr>
+        <tr>
+            <td>pre diabetic</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>diabetes</td>
+            <td>more than 126</td>
+            <td>N/A</td>
+            <td>more than 200</td>
+        </tr>
+    </table>
+</body>
+</html>
